@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //   1. Write a JavaScript program to check numbers positive and negative? (using simple function)
+            //   function check(num) {
+            //      if (num >= 0)
+            //      {
+            //         console.log("This Number Is positive",num);
+            //      }
+            //      else if (num < 0)
+            //      {
+            //         console.log("This number is negative",num);
+            //      }
+                    //  else
+                    //  {
+                    //     console.log("Invalid Number");
+                    //  }
+            //   }
+            //   check(-2);
+
+
+            // 2. Write a JavaScript program to check numbers positive and negative? (using no return with parameter)
+                //    function checkNumber(a,b) {
+                //     let sum = a+b;
+                //     console.log(sum);
+                //     if(sum >= 0)
+                //     {
+                //         console.log("This given Number is Positive");
+                //     }
+                //     else if (sum <= 0)
+                //     {
+                //         console.log("This given Number is Negative");
+                //     }
+                //     else
+                //     {
+                //         console.log("Invalid Number");
+                //     }
+                //    }
+                //    checkNumber(10,-40);
+
+
+            // 3. Write a JavaScript program to find which number is greater in 4 numbers using nested if else. 
+                //   function greater(a,b,c,d) {
+                //     console.log("A",a);
+                //     console.log("B",b);
+                //     console.log("C",c);
+                //     console.log("D",d);
+
+                    // if(a>b)
+                    // {
+                    //     if(a>c)
+                    //     {
+                    //       if(a>d)
+                    //       {
+                    //         console.log("A is greatest number");
+                    //       }
+                    //       else
+                    //       {
+                    //         console.log("D is greatest number");
+                    //       }
+                    //     }
+                    //   else{
+                    //        if (c>d)
+                    //        {
+                    //         console.log("C is greatest number");
+                    //        }
+                    //        else{
+                    //         console.log("D is greatest number");
+                    //        }
+                    //   }
+                    //     }
+                    //     else
+                    //     {
+                    //    if(b>c)
+                    //    {
+                    //     if(b>d)
+                    //     {
+                    //       console.log("B is greatest number");
+                    //     }
+                    //     else
+                    //     {
+                    //       console.log("D is greatest number");
+                    //     }
+                    //    }
+                    //    else
+                    //    {
+                    //    if(c>d)
+                    //    {
+                    //     console.log("C is greatest number");
+                    //    }
+                    //    else
+                    //    {
+                    //     console.log("D is greatest number");
+                     //        }
+                     //     }
+                    //   }
+                   // }
+                  // greater(22,33,99,66);
+
+
+            //   4. Write a JavaScript program to find which number is greater in 4 numbers using ladder if else. (using no return with parameter function)
+                    // function greaterNumber() {
+                    //     let a = parseInt(prompt("Enter the value of A"))
+                    //     console.log("A",a);
+                    //     let b = parseInt(prompt("Enter the value of B"))
+                    //     console.log("B",b);
+                    //     let c = parseInt(prompt("Enter the value of C"))
+                    //     console.log("C",c);
+                    //     let d = parseInt(prompt("Enter the value of D"))
+                    //     console.log("D",d);
+
+                    //     if (a >= b && a >= c && a >= d)
+                    //     {
+                    //         console.log("A is greatest Number",a);
+                    //     }
+                    //     else if (b >= a && b >= c && b >= d)
+                    //     {
+                    //         console.log("B is greatest Number",b);
+                    //     }
+                    //     else if (c >= a && c >= b && c >= d)
+                    //     {
+                    //         console.log("C is greatest Number",c);
+                    //     }
+                    //     else 
+                    //     {
+                    //         console.log("D is greatest Number",d);
+                    //     }
+                        
+                    // }
+                    // greaterNumber();
+
+
+                    // 5. Write Write a JavaScript program to add two number of addition, subtraction, multiplication, division
+                        //   function caluclate() {
+                        //     let a = parseInt(prompt("Enter value of A"));
+                        //     console.log("A",a);
+                        //     let b = parseInt(prompt("Enter value of B"));
+                        //     console.log("B",b);
+                   
+                        //     console.log("Addition = ",a + b);
+                        //     console.log("subtraction = ",a - b);
+                        //     console.log("multiplication = ",a * b);
+                        //     console.log("division = ",a / b);
+                        //   }
+                        //   caluclate();
+
+
+                        // 6. Write a javascript Program to perform a swapping of two variables.(all function use)
+                            //   let swapping = () =>  {
+                            //     let a = parseInt(prompt("Enter value of A"));
+                            //     console.log("A",a);
+                            //     let b = parseInt(prompt("Enter value of B"));
+                            //     console.log("B",b);
+
+                            //     [b,a]=[a,b];
+
+                            //     console.log("After Swapping a=",a );
+                            //     console.log("After Swapping b=",b );
+                            //   }
+                            //   swapping();
+
+                            // 7. Write a JavaScript program to find which number is greater in 3 numbers using nested if else.
+                                //   function greatercheck(a,b,c) {
+                                //     console.log("A",a);
+                                //     console.log("B",b);
+                                //     console.log("C",c);
+
+                                //     if (a >= b)
+                                //     {
+                                //        if (a >= c)
+                                //        {
+                                //         return a;
+                                //        }
+                                //        else
+                                //        {
+                                //         return c;
+                                //        }
+                                //     }
+                                //     else
+                                //     {
+                                //         if (b >= c)
+                                //         {
+                                //           return b;
+                                //         }
+                                //         else
+                                //         {
+                                //            return c;
+                                //         }
+                                //     }
+                                //   }
+                                //   let num1 = 77;
+                                //   let num2 = 22;
+                                //   let num3 = 99;
+                                //   let num = greatercheck(num1,num2,num3);
+                                //   console.log("The greatest number is",num);
+                                  
+
+                                // 8. Write a JavaScript program to create a basic calculator using switch case
+                                    //   function basiccalculator() {
+                                    //    let a = parseInt(prompt("Enter value of A"));
+                                    //    console.log("A",a);
+                                    //    let b = parseInt(prompt("Enter value of B"));
+                                    //    console.log("B",b);
+
+                                    //    let operator = prompt("Enter your choice operator (+, -, *, /, %)");
+
+                                    //    switch (operator) {
+                                    //     case "+":
+                                    //         console.log("Addition =",a + b);
+                                    //         break;
+
+                                    //     case "-":
+                                    //         console.log("subtraction =",a - b);
+                                    //         break;
+
+                                    //     case "*":
+                                    //         console.log("Multiplication =",a * b);
+                                    //         break;   
+                                            
+                                    //     case "/":
+                                    //         console.log("Division =",a / b);
+                                    //         break;
+
+                                    //      case "%":
+                                    //         console.log("Modulus =",a % b);
+                                    //         break;
+
+                                    //     default:
+                                    //         console.log("Invalid Operator");
+                                    //         break;
+                                    //    }
+                                    //   }
+                                    //   basiccalculator();
+
+
+                                // 9. Write a JavaScript   program to input angles of a triangle and check whether triangle is valid or not.
+                                    //  function trianglecheck() {
+                                    //     let angle1 = parseInt(prompt("Enter value of 1ST angle"));
+                                    //     console.log("Angle1 =",angle1);
+                                    //     let angle2 = parseInt(prompt("Enter value of 2ND angle"));
+                                    //     console.log("Angle2 =",angle2);
+                                    //     let angle3 = parseInt(prompt("Enter value of 3RD angle"));
+                                    //     console.log("Angle3 =",angle3);
+
+                                    //     let sum = angle1 + angle2 + angle3;
+                                    //     console.log(sum);
+
+                                    //     if (sum == 180)
+                                    //     {
+                                    //         console.log("Triangle is valid");
+                                    //     }
+                                    //     else 
+                                    //     {
+                                    //         console.log("Triangle is not valid");
+                                    //     }
+                                    //  }
+                                    //  trianglecheck();
+
+                                    // 10. Write a JavaScript program to decide that you eligible for voting. 
+                                        //    let checkAge = age => age < 18? "You are not eligible to vote." : "You are eligible to vote.";
+
+                                        //   console.log((checkAge(19)));
+
+
+
+                            
+
+
+                              
+                            
+    </script>
+
+</body>
+</html>
